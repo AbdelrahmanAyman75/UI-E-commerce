@@ -1,0 +1,39 @@
+header{
+    width: 100% !important;
+    height: 100vh !important;
+    background-image: url(/src/Assets/imges/pexels-Backgraound.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer{
+    position: absolute;
+    top: 0; right: 0; left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 100%;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    height:800px;
+    /* background-color: aqua; */
+
+}
+
+.started-btn{
+    background-color: #F2CC9B !important;
+    color: black !important;
+    transition:all 0.5s !important;
+    
+  }
+
+  .started-btn:hover{
+    color: #C00109 !important;
+    background-color: white !important;
+  }
